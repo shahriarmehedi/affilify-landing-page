@@ -53,11 +53,10 @@ function Navbar() {
                             <div className="flex flex-col text-gray-800 pt-10">
                                 <div className='flex flex-col ml-5'>
                                     <div className='flex flex-col gap-7 justify-start'>
-                                        <a href='https://regionx.gitbook.io/wiki' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Wiki</a>
-                                        <a href='https://github.com/w3f/Grants-Program/pull/2080' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Proposal</a>
-                                        <a href='https://github.com/RegionX-Labs' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>GitHub</a>
-                                        <a href='#team' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Team</a>
-
+                                        <a href='https://regionx.gitbook.io/wiki' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Home</a>
+                                        <a href='https://github.com/w3f/Grants-Program/pull/2080' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Services</a>
+                                        <a href='https://github.com/RegionX-Labs' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>About Us</a>
+                                        <button className='border-2 border-red-500 hover:bg-red-500 hover:text-white transition duration-300  px-5 py-2 rounded-md'>Contact Us</button>
                                     </div>
                                 </div>
 
@@ -72,10 +71,9 @@ function Navbar() {
                     <div className='lg:flex items-center gap-7 text-sm text-zinc-800 hidden '>
                         <div className='flex items-center'>
                             <div className='flex items-center gap-7'>
-                                <a href='https://regionx.gitbook.io/wiki' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Wiki</a>
-                                <a href='https://github.com/w3f/Grants-Program/pull/2080' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Proposal</a>
-                                <a href='https://github.com/RegionX-Labs' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>GitHub</a>
-                                <a href='#team' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Team</a>
+                                <a href='https://regionx.gitbook.io/wiki' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Home</a>
+                                <a href='https://github.com/w3f/Grants-Program/pull/2080' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>Services</a>
+                                <a href='https://github.com/RegionX-Labs' target='_blank' className=' font-medium hover:text-red-500 transition duration-200 cursor-pointer'>About Us</a>
 
                             </div>
                         </div>
